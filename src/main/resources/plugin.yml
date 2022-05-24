@@ -1,0 +1,6 @@
+name: Polls
+version: '${project.version}'
+main: com.optivat.plugin.Polls
+api-version: 1.18
+authors: [ Optivat ]
+description: A plugin where you can create polls
