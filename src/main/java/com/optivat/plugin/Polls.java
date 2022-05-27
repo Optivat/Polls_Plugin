@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -19,6 +20,7 @@ public final class Polls extends JavaPlugin {
 
     public static File file;
     HashMap<Player, Integer> playerPage = new HashMap<>();
+    HashMap<Player, Integer> creatingPoll = new HashMap<>();
 
     public void onEnable() {
         getConfig().options().copyDefaults();
